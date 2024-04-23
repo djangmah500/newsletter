@@ -1,6 +1,10 @@
+window.addEventListener("load", function () {
+  document.getElementById("emailDisplay").innerText =
+    localStorage.getItem("subscribedEmail");
 
-document.getElementById("emailDisplay").innerText = localStorage.getItem("subscribedEmail");
-var urlParams = new URLSearchParams(window.location.search);
-        var email = urlParams.get('email');
-        if (email) {
-            document.getElementById("emailDisplay").textContent = email;}
+  console.log(localStorage.getItem("subscribedEmail"));
+});
+
+function dismissMessage() {
+  window.location.href = "/";
+}

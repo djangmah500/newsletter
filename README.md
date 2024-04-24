@@ -20,12 +20,6 @@ Users should be able to:
 
 ![alt text](images/screenshots/newletter.png)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
 
 ### Built with
 
